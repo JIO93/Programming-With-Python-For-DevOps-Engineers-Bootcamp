@@ -15,11 +15,11 @@ class Cars:
         print(make)
         print(year)
 
-#Class allows us to call the functions inside of a variable. You must specify objects so they become available to use.
+#The class below allows us to call the functions inside of a variable. You must specify objects so they become available to use.
 my_cars = Cars("Ford", "F150", "2020")
 
-#The line below uses the print_model method to display the Model of our car
+#The line below uses the print_model method to display the Model of our car. No argument is needed as the model is specified in the Init Method.
 print(my_cars.print_model())
 
-#The line below uses the print_make_and_year method to display the make and year of our car. We have to specify the arguments as we don't specify the make or year in the Method.
+#The line below uses the print_make_and_year method to display the make and year of our car. We have to specify the arguments as we don't specify the make or year objects in the init Method.
 print(my_cars.print_make_and_year("F150", "2020"))
