@@ -1,0 +1,6 @@
+#If you want to install flask on a Virtual Machine or Serverless app you use a requirements.txt file.
+#Put the name of the library you want to use below
+flask
+
+#Run the code below in the VM or Serverless app you wish to install run flask on.
+#pip install -r .\requirements.txt
